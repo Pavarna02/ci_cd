@@ -1,3 +1,6 @@
+docker exec -u root jenkins bash -c "chmod 666 /var/run/docket.soc"
+docker restart jenkins
+
 
 kind get clusters
 
